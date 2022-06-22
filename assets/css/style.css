@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+  background-image: url("../img/memphis-mini\,png");
+  background-position: top right;
+  background-repeat: repeat;
+}
+
+.image {
+  width: auto;
+}
+
+.card, .panel {
+  height: 100%;
+}
+
+.box {
+  width: 100%;
+}
+
+.foodError {
+    position: fixed;
+    height:auto;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top:4vh
+}
+
+.chosenMovieInformation a {
+  text-decoration: none;
+  color: black;
+}
+
+.has-text-shadow {
+  text-shadow: 0px 0px 2px white;
+}
+
+.has-text-shadow-less {
+  text-shadow: 0px 0px 1px #4d433d;
+}
+

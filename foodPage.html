@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title class="pageTitle">More Information</title>
+</head>
+
+<body>
+    <section class="moreInfo content is-flex is-flex-direction-column m-6">
+        <div class="columns">
+            <div class="column">
+                <h1 class="column singlePageTitle title m-0"></h1>
+                <a href="" target="_blank" class="recipeSource button is-link"></a>
+                <button type="button" class="faveFoodSingle button is-warning">I'm your favourite!</button>
+                <button type="button" class="close button is-danger">Close Page</button>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="foodStepsContain column is-three-quarters-widescreen is-two-thirds-desktop is-half-tablet">
+                <h2>Ingredients</h2>
+                <ol class="ingredients is-lower-alpha"></ol>
+                <h2>Steps</h2>
+                <ol class="foodSteps"></ol>
+            </div>
+
+            <div class="column is-flex is-flex-direction-column m-6">
+                <img src="" class="currentFoodImg" />
+                <img src="" class="foodNutrition" />
+            </div>
+        </div>
+    </section>
+    <script src="./assets/js/foodPage.js"></script>
+    <script src="./assets/js/favorites.js"></script>
+</body>
+
+</html>
