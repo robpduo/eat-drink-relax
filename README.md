@@ -6,14 +6,14 @@ A website where one can randomize what they want to eat for dinner, drink on the
 generate until they find something they like. If the user REALLY likes what they have chosen, they can even add it to their favorites, and view them on a seperate page.
 
 ## Built With
-HTML
-CSS
-JavaScript
-JQUERY
-BULMA
-TMDB API
-Spoonacular API
-The Cocktail DB API
+HTML</br>
+CSS</br>
+JavaScript</br>
+JQUERY</br>
+BULMA</br>
+TMDB API</br>
+Spoonacular API</br>
+The Cocktail DB API</br>
 
 
 # Screenshots
